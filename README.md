@@ -47,6 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Detail pagina 
   
   <img src="readme-images/Detail-Airbnb.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Detail-Airbnb2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
