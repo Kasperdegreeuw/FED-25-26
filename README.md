@@ -94,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-    De code schrijven ging over het algemeen wel soepel behalve dingen zoals custom properties zijn op dit moment nog een klein       beetje vaag voor mij. Maar ik ben er wel uitgekomen met een tutorial op YouTube. Daarnaast voor het opdelen van de footer         vond ik dat nog wel lastig in de HTML omdat je eigenlijk meerdere navigaties heb in een footer wist ik dus niet zeker of ik       meerdere navs moest gaan gebruiker uiteindelijk ben ik hier wel voor gegaan. Het gene waar ik lang bleef puzzelen was dat ik      mijn header niet sticky kreeg dit kwam om dat ik een overflow-x had op html, body. Toen ik dit gewoon veranderde naar body        was dit probleem opgelost.
+De code schrijven ging over het algemeen wel soepel behalve dingen zoals custom properties zijn op dit moment nog een klein       beetje vaag voor mij. Maar ik ben er wel uitgekomen met een tutorial op YouTube. Daarnaast voor het opdelen van de footer         vond ik dat nog wel lastig in de HTML omdat je eigenlijk meerdere navigaties heb in een footer wist ik dus niet zeker of ik       meerdere navs moest gaan gebruiker uiteindelijk ben ik hier wel voor gegaan. Het gene waar ik lang bleef puzzelen was dat ik      mijn header niet sticky kreeg dit kwam om dat ik een overflow-x had op html, body. Toen ik dit gewoon veranderde naar body        was dit probleem opgelost.
 
 
   ### Agenda voor meeting
