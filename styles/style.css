@@ -1,27 +1,48 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  overflow-x: hidden;
+}
 
+@font-face {
+    font-family: 'Starbucks';
+    src: url('/fonts/49f6eaa3630c71e3-s.p.woff') format('woff');
+    font-weight: 700;
+}
 
+@font-face {
+    font-family: 'Starbucks';
+    src: url('/fonts/564f79e771d74376-s.p.woff2') format('woff2');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Starbucks';
+    src: url('/fonts/6aebdeb6fff3abca-s.p.woff') format('woff');
+    font-weight: 400;
+}
 
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
@@ -29,3 +50,77 @@
 
 /* jouw code */
 
+h1 {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+h2{
+	font-family: starbucks;
+	font-weight: 700;
+  font-size: 1em;
+}
+
+p {
+	font-family: starbucks;
+	font-weight: 100;
+	font-size: 0.8em;
+}
+
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 1em 0em 1em 1em;
+
+  position: sticky;
+  top:0;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+  
+  
+}
+
+header li {
+  margin-top: 1em;
+}
+
+header img {
+  z-index: 1;
+}
+
+nav button {
+  position: relative;
+  z-index: 1;
+}
+
+nav ul { 
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  
+  translate: 200% 0;
+  transition: 0.5s;
+  list-style: none;
+  background-color: white;
+  padding-top: 4em;
+  padding-left: 2em;
+}
+
+nav.menuOpen ul {
+  translate: 0 0;
+  
+}
