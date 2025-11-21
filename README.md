@@ -60,8 +60,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  Starbucks gebruikt
+  Lijst met je bevindingen die in de test naar voren kwamen: Starbucks gebruikt
   H5 whitespace
   NL = talen
   Registered sign
