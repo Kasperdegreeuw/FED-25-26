@@ -40,8 +40,17 @@ body {
 /*********************/
 :root {
   /* startje */
-  --color-text: #111;
-  --color-background: #eee;
+  --color-text: #000000;
+  --color-text-2: white;
+  --color-text-3: #006241;
+  --color-background: #ffffff;
+  --color-section-background-1: #006241;
+  --color-section-background-2: #edebe9;
+  --color-section-background-3: #00754a;
+  --btn-color: white;
+  --btn-color-2: #00754a;
+  --footer-background-color: #1c3930;
+  --footer-background-color-2: #ffffff;
 }
 
 /****************/
@@ -72,28 +81,32 @@ p {
 	font-size: 0.8em;
 }
 
+/* header */
+
 header {
   
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: var(--color-background);
   padding: 1em 0em 1em 1em;
 
   position: sticky;
   top:0;
+  z-index: 1;
 }
 
 
-nav a {
+a {
   text-decoration: none;
-  color: black;
+  color: var(--color-text);
   
   
 }
 
 header li {
   margin-top: 1em;
+  color: var(--color-text);
 }
 
 header img {
@@ -105,7 +118,7 @@ nav button {
   z-index: 1;
 }
 
-nav ul { 
+header ul { 
   position: fixed;
   top: 0;
   bottom:0;
@@ -115,7 +128,7 @@ nav ul {
   translate: 200% 0;
   transition: 0.5s;
   list-style: none;
-  background-color: white;
+  background-color: var(--color-background);
   padding-top: 4em;
   padding-left: 2em;
 }
@@ -124,3 +137,26 @@ nav.menuOpen ul {
   translate: 0 0;
   
 }
+
+/* footer */
+
+footer {
+  background-color: var(--footer-background-color)
+  ;
+}
+
+footer nav:nth-of-type(2) {
+  position: fixed;
+  background-color: var(--footer-background-color-2) ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 2em;
+}
+
+
+footer nav a:nth-of-type(2) {
+  color: var(--color-text-3);
+
+}
+
