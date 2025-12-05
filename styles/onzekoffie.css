@@ -41,7 +41,7 @@ main > section:first-of-type {
     justify-content: flex-end;
     align-self: center;
     color: var(--color-text-2);
-    background: linear-gradient(rgba(0, 0, 0, 0) 10%, #00190f), url(/images/OurCoffees_Blonde_C01RESIZED.jpg.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, #00190f), url(./images/OurCoffees_Blonde_C01RESIZED.jpg.webp);
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient */
     /*  */
     min-height: 80vh;
