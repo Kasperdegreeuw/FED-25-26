@@ -18,19 +18,19 @@ body {
 
 @font-face {
     font-family: "Starbucks-bold";
-    src: url('/fonts/49f6eaa3630c71e3-s.p.woff') format('woff');
+    src: url('./fonts/49f6eaa3630c71e3-s.p.woff') format('woff');
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Starbucks-light";
-    src: url('/fonts/564f79e771d74376-s.p.woff2') format('woff2');
+    src: url('./fonts/564f79e771d74376-s.p.woff2') format('woff2');
     font-weight: 100;
 }
 
 @font-face {
     font-family: "Starbucks-regular";
-    src: url('/fonts/6aebdeb6fff3abca-s.p.woff') format('woff');
+    src: url('./fonts/6aebdeb6fff3abca-s.p.woff') format('woff');
     font-weight: 400;
 }
 
