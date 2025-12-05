@@ -17,19 +17,19 @@ body {
 }
 
 @font-face {
-    font-family: 'Starbucks';
+    font-family: "Starbucks-bold";
     src: url('/fonts/49f6eaa3630c71e3-s.p.woff') format('woff');
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Starbucks';
+    font-family: "Starbucks-light";
     src: url('/fonts/564f79e771d74376-s.p.woff2') format('woff2');
     font-weight: 100;
 }
 
 @font-face {
-    font-family: 'Starbucks';
+    font-family: "Starbucks-regular";
     src: url('/fonts/6aebdeb6fff3abca-s.p.woff') format('woff');
     font-weight: 400;
 }
@@ -51,6 +51,8 @@ body {
   --btn-color-2: #00754a;
   --footer-background-color: #1c3930;
   --footer-background-color-2: #ffffff;
+  --footer-text-1:#ffffffb3;
+  --not-active: #00000094;
 }
 
 /****************/
@@ -59,41 +61,45 @@ body {
 
 /* jouw code */
 
-h1 {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-h2{
-	font-family: starbucks;
+h2 {
+	font-family: "Starbucks-bold";
 	font-weight: 700;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 p {
-	font-family: starbucks;
+	font-family: "Starbucks-light";
 	font-weight: 100;
-	font-size: 0.8em;
+	font-size: 1em;
+}
+
+button {
+  font-family: "Starbucks-regular" ;	
+  font-weight: 400;
+  background-color: var(--btn-color);
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 12em;
+  margin: 0em 2em;
 }
 
 /* header */
 
 header {
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: var(--color-background);
   padding: 1em 0em 1em 1em;
 
   position: sticky;
   top:0;
   z-index: 1;
+
+  font-family: "Starbucks-regular";
+}
+
+header nav:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -104,12 +110,12 @@ a {
   
 }
 
-header li {
-  margin-top: 1em;
+header nav:first-of-type li {
+  padding-top: 1em;
   color: var(--color-text);
 }
 
-header img {
+header nav:first-of-type a {
   z-index: 1;
 }
 
@@ -118,7 +124,7 @@ nav button {
   z-index: 1;
 }
 
-header ul { 
+header nav:nth-of-type(1) > ul { 
   position: fixed;
   top: 0;
   bottom:0;
@@ -133,30 +139,245 @@ header ul {
   padding-left: 2em;
 }
 
-nav.menuOpen ul {
+header nav.menuOpen:nth-of-type(1) ul {
   translate: 0 0;
   
 }
 
-/* footer */
-
-footer {
-  background-color: var(--footer-background-color)
-  ;
-}
-
-footer nav:nth-of-type(2) {
+/* bottom header */
+header nav:nth-of-type(2) {
   position: fixed;
   background-color: var(--footer-background-color-2) ;
   bottom: 0;
   left: 0;
   right: 0;
-  padding-top: 2em;
+
+  padding: 1em 0em;
+  
+  
+  
 }
 
+header nav:nth-of-type(2) a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--not-active);
+  
+  
+}
+
+
+header nav:nth-of-type(2) ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2em; 
+  list-style: none;
+
+}
+
+a span {
+  font-size: 0.7em;
+  font-family: "Starbucks-regular";
+  padding-top: 0.3em;
+}
+
+header nav:nth-of-type(2) svg {
+  width: 1.375em;
+  
+}
+
+header nav:nth-of-type(2) path {
+  fill: var(--not-active);
+  
+}
+
+header nav:nth-of-type(2) a[aria-current="page"] path {
+  fill: var(--color-text-3);
+}
+
+header nav:nth-of-type(2) a[aria-current="page"]  {
+  color: var(--color-text-3);
+}
+
+/* header summary */
+
+header summary {
+  font-weight: 400;
+  color: var(--color-text-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  
+}
+
+header summary::after {
+	content:">";
+  rotate: 90deg;
+}
+
+header summary {
+  visibility: hidden;
+}
+
+header details::details-content {
+  content-visibility:visible;
+}
+
+header details a {
+  font-weight: 400;
+}
+/* footer */
+
+footer {
+  background-color: var(--footer-background-color)
+  ;
+  font-family: "Starbucks-regular";
+  padding-bottom: 6em;
+}
 
 footer nav a:nth-of-type(2) {
   color: var(--color-text-3);
 
 }
 
+details ::marker{
+  content: ''
+}
+
+footer summary {
+  font-weight: 400;
+  color: var(--color-text-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  
+}
+
+footer summary::after {
+	content: ">";
+  font-weight: 100;
+  font-size: 0.5em;
+  rotate: 90deg;
+	transition:0.3s;
+	font-size:2em;
+	line-height:1rem;
+}
+
+details[open] summary::after {
+	rotate:270deg;
+}
+
+details li {
+  color: var(--footer-text-1) ;
+  padding-left: 0.5em;
+  font-weight: 100;
+}
+
+footer svg:first-of-type {
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 2.875em;
+}
+
+nav[aria-label="social-media"] ul {
+  display: flex;     
+  list-style: none;    
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1em;
+  padding-top:0.7em
+
+}
+
+
+nav[aria-label="social-media"] ul path {
+  fill: white;
+}
+
+nav[aria-label="social-media"] ul svg {
+  width: 1.5em;
+}
+
+footer > ul {
+  font-size: 0.8em;
+  color: grey;
+  font-weight: 100;
+  padding-left: 0.5em;
+  padding-left:2em;
+  padding-top: 1em;
+  list-style: "";
+}
+
+footer nav:first-of-type {
+  border-bottom: 0.05em solid grey;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right:2em;
+}
+
+/* responsive */
+
+@media (min-width: 48em) {
+  header nav:nth-of-type(2) {
+    display: none;
+  }
+
+  footer > ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em 
+  }
+
+  nav[aria-label="social-media"] ul {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 64em) {
+
+  nav button {
+    display: none;
+  }
+
+  header nav:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  header nav:nth-of-type(1) ul {
+    position: static;
+    translate: 0 0;
+    padding: 0;
+    margin: 0;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: transparent;
+  }
+
+  header nav ul li:nth-last-child(4) {
+    align-items: flex-end;
+  }
+
+  header summary {
+    visibility: visible;
+  }
+  
+  header details::details-content {
+    content-visibility:hidden;
+  }
+  
+
+}
