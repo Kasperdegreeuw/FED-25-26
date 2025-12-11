@@ -67,6 +67,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - sommige koppen en links zijn ook onduidelijk
   - veel errors in de html tijdens het scannen
 
+  [WCAG Starbucks Document (PDF)](./readme-images/WCAG-starbucks-1.pdf)
+
+
+
 </details>
 
 
@@ -204,7 +208,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Op de starbucks site zie je af en toe kleinere lettertypes zoals 14 px of nog kleiner op mijn versie is het minimaal 16px
  - Op bepaalde dingen zoals het logo was het bij starbucks onduidelijk dat je erop kon klikken dus heb ik op dat soort dingen een hover toegevoegd.
  - heel veel links op de onze koffies pagina heette op de starbucks site bijvoorbeeld medium roast maar dat was dan het geval bij 10 verschillende koffies dus heb ik bij elke link een aria label toegevoegd met de koffie en daar dan de soort roast achter zodat de gebruiker meer duidelijk heeft over de link want hiervoor was dit alleen visueel zichtbaar.
-  
+
+  [WCAG Eigen Site Document (PDF)](./readme-images/WCAG-eigensite-1.pdf)
 
 </details>
 
@@ -275,21 +280,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  ### Je uitkomst - karakteristiek screenshots
+  <img src="readme-images/screen2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen4.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Wat mij vooral heeft geholpen is gewoon coderen want daardoor kwam al die vergaande kennis van vorig jaar van internetstandaarden weer naar boven. Dan heb ik het vooral over flexbox. Daarnaast heb ik ook veel nieuwe dingen geleerd zoals het gebruiken variabelen en grid. Variabelen snap ik nu wel goed maar grid heb ik nog steeds wel een beetje moeite mee maar de basis begrijp wel redelijk. En ook het gebruik van media queries want vorig jaar heb ik het een beetje gebruikt om dingen een heel klein beetje responsive te maken maar nu heb ik het echt heel veel gebruikt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/screen6.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
   Wat ik vooral lastig vond uiteindelijk was dus en het positioneren van elementen en ze goed responsive te maken. Er zijn niet echt specifiek dingen die mij niet gelukt zijn. Er waren vooral gewoon dingen dat veel tijd kosten tot dat het wel lukte. Misschien waar ik wel beter in kan zijn en moeite mee had was de overzicht houden in mijn code omdat het uiteindelijk zoveel regels waren en nu pas richting het einde ben ik het een beetje gaan ordenen. Dus ik denk om gewoon beginnen met een logische structuur in plaats van dat op het einde te doen is wel handig.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/screen5.png" width="375px" alt="bummer">
 </details>
 
 
