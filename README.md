@@ -312,8 +312,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. prefers-reduced-motion - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+  2. !important - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/important
+  3. linear-gradient() - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient
+  4. CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value
+  5. :focus - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus
+  6. outline - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/outline
+  7. outline-offset - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/outline-offset
+  8. :focus-visible - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible
+  9. : The Details disclosure element - HTML | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+  10. :nth-of-type() - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:nth-of-type
+  11. object-fit - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit
+  12. ARIA: aria-label attribute - ARIA | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
+  13. Rupert, D. (2019, 28 juli). Hide content. Hide content. https://www.a11yproject.com/posts/how-to-hide-content/
+  14. align-self - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-self
+  15. Basic concepts of grid layout - CSS | MDN. (z.d.-b). https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+  16. grid-template-columns - CSS | MDN. (z.d.-b). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns
+  17. z-index - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index
+  18. white-space - CSS | MDN. (z.d.). https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/white-space
+  19. Coyier, C. (2024, 12 augustus). CSS Flexbox Layout Guide | CSS-Tricks. CSS-Tricks. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 </details>
