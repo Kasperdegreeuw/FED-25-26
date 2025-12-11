@@ -55,6 +55,8 @@ section:first-of-type > a {
   text-decoration: none;
   transition: 0.5s;
   text-align: center;
+  width: 80%;
+  align-self: center;
 }
 
 section:first-of-type > a:hover {
