@@ -67,6 +67,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - sommige koppen en links zijn ook onduidelijk
   - veel errors in de html tijdens het scannen
 
+  [WCAG Starbucks Document (PDF)](./readme-images/WCAG-starbucks-1.pdf)
+
+
+
 </details>
 
 
