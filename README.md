@@ -208,7 +208,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Op de starbucks site zie je af en toe kleinere lettertypes zoals 14 px of nog kleiner op mijn versie is het minimaal 16px
  - Op bepaalde dingen zoals het logo was het bij starbucks onduidelijk dat je erop kon klikken dus heb ik op dat soort dingen een hover toegevoegd.
  - heel veel links op de onze koffies pagina heette op de starbucks site bijvoorbeeld medium roast maar dat was dan het geval bij 10 verschillende koffies dus heb ik bij elke link een aria label toegevoegd met de koffie en daar dan de soort roast achter zodat de gebruiker meer duidelijk heeft over de link want hiervoor was dit alleen visueel zichtbaar.
-  
+
+  [WCAG Eigen Site Document (PDF)](./readme-images/WCAG-eigensite-1.pdf)
 
 </details>
 
