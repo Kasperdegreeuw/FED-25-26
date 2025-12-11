@@ -289,14 +289,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Wat mij vooral heeft geholpen is gewoon coderen want daardoor kwam al die vergaande kennis van vorig jaar van internetstandaarden weer naar boven. Dan heb ik het vooral over flexbox. Daarnaast heb ik ook veel nieuwe dingen geleerd zoals het gebruiken variabelen en grid. Variabelen snap ik nu wel goed maar grid heb ik nog steeds wel een beetje moeite mee maar de basis begrijp wel redelijk. En ook het gebruik van media queries want vorig jaar heb ik het een beetje gebruikt om dingen een heel klein beetje responsive te maken maar nu heb ik het echt heel veel gebruikt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/screen6.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
   Wat ik vooral lastig vond uiteindelijk was dus en het positioneren van elementen en ze goed responsive te maken. Er zijn niet echt specifiek dingen die mij niet gelukt zijn. Er waren vooral gewoon dingen dat veel tijd kosten tot dat het wel lukte. Misschien waar ik wel beter in kan zijn en moeite mee had was de overzicht houden in mijn code omdat het uiteindelijk zoveel regels waren en nu pas richting het einde ben ik het een beetje gaan ordenen. Dus ik denk om gewoon beginnen met een logische structuur in plaats van dat op het einde te doen is wel handig.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/screen5.png" width="375px" alt="bummer">
 </details>
 
 
