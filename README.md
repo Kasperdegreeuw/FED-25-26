@@ -60,12 +60,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen: Starbucks gebruikt
-  H5 whitespace
-  dat NL voor talen staat is niet duidelijk beschreven als link
-  Registered sign
-  sommige koppen en links zijn ook onduidelijk
-  veel errors in de html tijdens het scannen
+  Lijst met je bevindingen die in de test naar voren kwamen: 
+  - Starbucks gebruikt
+  - H5 whitespace
+  - dat NL voor talen staat is niet duidelijk beschreven als link
+  - sommige koppen en links zijn ook onduidelijk
+  - veel errors in de html tijdens het scannen
 
 </details>
 
