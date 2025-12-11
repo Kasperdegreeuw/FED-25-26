@@ -1,5 +1,6 @@
 main {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--onzekoffies-main-background);
+    color: var(--color-text);
 }
 
 
@@ -33,15 +34,27 @@ section ul {
     list-style: "";
 }
 
+/* selection */
 
-/* section (h1) */
+main h2::selection, main h1::selection, main h3::selection, main h4::selection, main p::selection, main a::selection  {
+    background: var(--selectie-achtergrond-groen);
+    color: var(--selectie-tekst-wit);
+  }
+
+  section:nth-of-type(2) section section::selection  {
+    background: var(--selectie-achtergrond-groen);
+    color: var(--selectie-tekst-wit);
+  }
+
+
+/* zijkant section */
 main > section:first-of-type {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-self: center;
     color: var(--color-text-2);
-    background: linear-gradient(rgba(0, 0, 0, 0) 10%, #00190f), url(../images/OurCoffees_Blonde_C01RESIZED.jpg.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, #00190f), url(/images/OurCoffees_Blonde_C01RESIZED.jpg.webp);
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient */
     /*  */
     min-height: 80vh;
@@ -52,24 +65,47 @@ main > section:first-of-type {
 
 main > section:first-of-type a:nth-of-type(1) {
     font-family: "starbucks-regular";
-    background-color: white;
+    background-color: var(--btn-color);
     width: 90%;
     border-radius: 2em;
     text-align: center;
     padding: 1em;
     align-self: center;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: 0.5s;
+}
+
+main > section:first-of-type a:nth-of-type(1):focus-visible {
+    outline: 2px solid var(--focus-groen);
+    outline-offset: 0.2em;
+  }
+
+  main > section:first-of-type a:nth-of-type(2):focus-visible {
+    outline: 2px solid var(--focus-groen);
+    outline-offset: 0.2em;
+  }
+
+main > section:first-of-type a:nth-of-type(1):hover {
+    background-color: var(--btn-color-hover);
 }
 
 main > section:first-of-type a:nth-of-type(2) {
     font-family: "starbucks-regular";
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
+    color: var(--color-text-1);
+    background-color: var(--btn-transparent);
+    border: 1px solid var(--btn-white-transparent-hover);
     width: 90%;
     border-radius: 2em;
     padding: 1em;
     text-align: center;
     align-self: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+main > section:first-of-type a:nth-of-type(2):hover {
+    background-color: var(--btn-white-transparent-hover);
 }
 
 
@@ -90,8 +126,18 @@ section > section:first-of-type {
 }
 
 p > a {
-    color: green;
+    color: var(--tekst-linkjes);
     text-decoration: underline;
+    transition: 0.5s;
+}
+
+p > a:focus-visible {
+    outline: 2px solid var(--focus-groen);
+    outline-offset: 0.2em;
+  }
+
+p > a:hover {
+    text-decoration: none;
 }
 
 section > section p:nth-of-type(2) , section > section p:nth-of-type(3) , section > section p:nth-of-type(4) {
@@ -129,12 +175,22 @@ article a {
     font-family: "starbucks-bold";
     align-self: center;
     background-color: transparent;
-    border: 2px solid #00754a;
+    border: 2px solid var(--btn-color-2);
     width: 90%;
     border-radius: 2em;
     text-align: center;
     padding: 1em;
-    color: #00754a;
+    color: var(--color-text-4);
+    text-decoration: none;
+    transition: 0.5s;
+}
+article a:focus-visible {
+    outline: 2px solid var(--focus-groen);
+    outline-offset: 0.2em;
+  }
+
+article a:hover {
+    background-color: var(--btn-green-transparent-hover);
 }
 
 
@@ -145,7 +201,7 @@ section:nth-of-type(2) section section {
     grid-template-columns: auto 1fr;
     gap: 1em;
     padding-bottom: 2em;
-    border-bottom: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid var(--border-color-subtle);
 }
 
 section:nth-of-type(2) section section h4 , section:nth-of-type(2) section section p , section:nth-of-type(2) section section ol {
@@ -156,6 +212,12 @@ section:nth-of-type(2) section section img {
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 4;
+}
+
+@media (prefers-color-scheme: dark) {
+    section:nth-of-type(2) section section img {
+        filter: invert(100%);
+    }
 }
 
 section:nth-of-type(2) section section ol {
@@ -175,6 +237,11 @@ ol {
     display: flex;
     flex-direction: column;
     gap: 1em
+}
+
+section ul img {
+    width: 100%;
+    height: auto;
 }
 
 
