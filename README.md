@@ -280,8 +280,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screen1.png" width="375px" alt="uitomst opdracht 1">
+  ### Je uitkomst - karakteristiek screenshots
   <img src="readme-images/screen2.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/screen3.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/screen4.png" width="375px" alt="uitomst opdracht 1">
