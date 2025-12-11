@@ -621,7 +621,7 @@ nav[aria-label="social-media"] ul {
   list-style: none;    
   align-items: center;
   justify-content: flex-start;
-  padding-left: 1em;
+  padding-left: 2em;
   padding-top:0.7em;
   gap: 1em;
   
@@ -647,15 +647,20 @@ nav[aria-label="social-media"] ul svg {
   width: 1.5em;
 }
 
+footer > ul {
+  padding-top: 1em;
+}
+
 footer > ul a {
   font-size: 1em;
   color: grey;
   font-weight: 100;
-  padding-left:3em;
+  padding-left:2em;
   padding-top: 1em;
   font-family: "starbucks-light";
   text-decoration: none;
   transition: 0.5s;
+  
 }
 
 footer > ul li {
