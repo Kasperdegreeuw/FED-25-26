@@ -281,10 +281,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screen1" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/screen2" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/screen3" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/screen4" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screen4.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
